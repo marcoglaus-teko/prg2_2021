@@ -7,8 +7,8 @@ package ch.teko.prg2.day02.input.demoInterface;
 public interface IArithmeticOperations {
     /**
      * Returns the sum of two random integer numbers.
-     * @param numberA
-     * @param numberB
+     * @param numberA first value
+     * @param numberB second value
      * @return an integer.
      */
     int sum(int numberA, int numberB);
@@ -25,15 +25,15 @@ public interface IArithmeticOperations {
      *
      * @param numberA
      * @param numberB
-     * @return
+     * @return an integer
      */
     int product(int numberA, int numberB);
 
     /**
      *
-     * @param numberA
-     * @param numberB
-     * @return
+     * @param numberA first value
+     * @param numberB second value
+     * @return an Integer
      */
     int quotient(int numberA, int numberB);
 
