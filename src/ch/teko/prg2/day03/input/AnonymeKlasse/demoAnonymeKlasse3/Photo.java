@@ -24,9 +24,9 @@ public class Photo {
 
     public static void main(String[] args) {
         //Mac
-        Photo photo = new Photo(new File("./src/ch/teko/prg/day03/input/demoAnonymeKlasse3"));
+        Photo photo = new Photo(new File("./src/ch/teko/prg2/day03/input/AnonymeKlasse/demoAnonymeKlasse3"));
         //Windows
-        //Photo photo = new Photo(new File(".\\src\\ch\\teko\\prg\\day03\\input\\demoAnonymeKlasse3"));
+        //Photo photo = new Photo(new File(".\\src\\ch\\teko\\prg2\\day03\\input\\AnonymeKlasse\\demoAnonymeKlasse3"));
         for (File f: photo.getPictures()) {
             System.out.println(f.getName());
         }
