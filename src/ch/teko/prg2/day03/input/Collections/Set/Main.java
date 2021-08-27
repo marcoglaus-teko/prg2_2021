@@ -1,6 +1,7 @@
 package ch.teko.prg2.day03.input.Collections.Set;
 
 import java.util.HashSet;
+import java.util.Iterator;
 
 public class Main {
     public static void main(String[] args) {
@@ -16,7 +17,7 @@ public class Main {
         }
 
         //Entfernen Sie "AA" aus dem hashSet
-
+        hashSet.remove("AA");
 
         for (String s: hashSet) {
             System.out.println(s);

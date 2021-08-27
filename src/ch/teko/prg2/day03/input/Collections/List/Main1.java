@@ -1,6 +1,7 @@
 package ch.teko.prg2.day03.input.Collections.List;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 
 public class Main1 {
     public static void main(String[] args) {
@@ -9,18 +10,28 @@ public class Main1 {
         list.add("Trick");
         list.add("Track");
 
-        //Die Werte einer Liste können auf verschiedene Weise ausgegeben werden. Vervollständigen Sie.
+        /*
+         * Die Werte einer Liste können auf verschiedene Weise ausgegeben werden. Vervollständigen Sie.
+         */
 
-        //for-each loop (enhanced for loop)
+        // for-each loop (enhanced for loop)
+        for (String s: list) {
+            System.out.println(s);
+        }
 
+        // for loop (klassische for-Schleife)
+        for (int i = 0; i < list.size(); i++) {
+            System.out.println(list.get(i));
+        }
 
-        //for loop (klassische for-Schleife)
+        // Iterator (oder ListIterator)
+        Iterator<String> itr = list.iterator();
+        while (itr.hasNext()) {
+            System.out.println(itr.next());
+        }
 
-
-        //Iterator (oder ListIterator)
-
-
-        //System.out.println
+        // System.out.println
+        System.out.println(list);
 
     }
 

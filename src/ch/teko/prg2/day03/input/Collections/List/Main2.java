@@ -1,5 +1,8 @@
 package ch.teko.prg2.day03.input.Collections.List;
 
+import java.util.ArrayList;
+import java.util.Iterator;
+
 public class Main2 {
     public static void main(String[] args) {
         double[] doubleArray = {3.5, 4.5, 2.1, 6, 5.9, 4.6, 5.1};
@@ -15,9 +18,22 @@ public class Main2 {
          */
 
         //ArrayList definieren
+        ArrayList<Double> doubleArrayList = new ArrayList<>();
+        for (double d : doubleArray) {
+            doubleArrayList.add(d);
+        }
 
         //Iterator defineren + while-loop
+        Iterator<Double> itr = doubleArrayList.iterator();
+        while (itr.hasNext()) {
+            if (itr.next() < 4.5) {
+                itr.remove();
+            }
+        }
 
+        for (double d : doubleArrayList) {
+            System.out.println(d);
+        }
 
     }
 }
