@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>ch.teko.prg2.pruefung.aufgabe8.Artikel</OriginalElement>
+  <nodes>
+    <node x="0.0" y="195.0">ch.teko.prg2.pruefung.aufgabe8.Abteilung</node>
+    <node x="234.75" y="611.0">ch.teko.prg2.pruefung.aufgabe8.Main</node>
+    <node x="175.8771929824561" y="392.0">ch.teko.prg2.pruefung.aufgabe8.Laden</node>
+    <node x="220.48026315789468" y="0.0">ch.teko.prg2.pruefung.aufgabe8.Artikel</node>
+    <node x="339.0" y="229.0">ch.teko.prg2.pruefung.aufgabe8.IService</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="ch.teko.prg2.pruefung.aufgabe8.Laden" target="ch.teko.prg2.pruefung.aufgabe8.Abteilung" relationship="TO_MANY">
+      <point x="-36.25" y="-83.5" />
+      <point x="284.6271929824561" y="371.0" />
+      <point x="239.25" y="371.0" />
+      <point x="79.75" y="72.5" />
+    </edge>
+    <edge source="ch.teko.prg2.pruefung.aufgabe8.Laden" target="ch.teko.prg2.pruefung.aufgabe8.IService" relationship="REALIZATION">
+      <point x="36.25" y="-83.5" />
+      <point x="357.1271929824561" y="361.0" />
+      <point x="437.5" y="361.0" />
+      <point x="0.0" y="38.5" />
+    </edge>
+    <edge source="ch.teko.prg2.pruefung.aufgabe8.Main" target="ch.teko.prg2.pruefung.aufgabe8.Abteilung" relationship="CREATE">
+      <point x="-55.66666666666666" y="-39.0" />
+      <point x="262.58333333333337" y="585.0" />
+      <point x="79.75" y="585.0" />
+      <point x="-79.75" y="72.5" />
+    </edge>
+    <edge source="ch.teko.prg2.pruefung.aufgabe8.Main" target="ch.teko.prg2.pruefung.aufgabe8.Artikel" relationship="CREATE">
+      <point x="55.66666666666666" y="-39.0" />
+      <point x="373.91666666666663" y="585.0" />
+      <point x="586.6030701754386" y="585.0" />
+      <point x="586.6030701754386" y="19.0" />
+      <point x="350.9802631578947" y="19.0" />
+      <point x="43.5" y="72.5" />
+    </edge>
+    <edge source="ch.teko.prg2.pruefung.aufgabe8.Abteilung" target="ch.teko.prg2.pruefung.aufgabe8.Artikel" relationship="TO_MANY">
+      <point x="-79.75" y="-72.5" />
+      <point x="79.75" y="165.0" />
+      <point x="263.9802631578947" y="165.0" />
+      <point x="-43.5" y="72.5" />
+    </edge>
+    <edge source="ch.teko.prg2.pruefung.aufgabe8.Laden" target="ch.teko.prg2.pruefung.aufgabe8.Artikel" relationship="DEPENDENCY">
+      <point x="108.75" y="-83.5" />
+      <point x="429.6271929824561" y="371.0" />
+      <point x="551.625" y="371.0" />
+      <point x="551.625" y="182.0" />
+      <point x="371.9802631578947" y="182.0" />
+      <point x="371.9802631578947" y="145.0" />
+      <point x="43.5" y="72.5" />
+    </edge>
+    <edge source="ch.teko.prg2.pruefung.aufgabe8.Main" target="ch.teko.prg2.pruefung.aufgabe8.Laden" relationship="CREATE">
+      <point x="0.0" y="-39.0" />
+      <point x="318.25" y="585.0" />
+      <point x="320.8771929824561" y="585.0" />
+      <point x="0.0" y="83.5" />
+    </edge>
+    <edge source="ch.teko.prg2.pruefung.aufgabe8.IService" target="ch.teko.prg2.pruefung.aufgabe8.Artikel" relationship="DEPENDENCY">
+      <point x="0.0" y="-38.5" />
+      <point x="437.5" y="216.0" />
+      <point x="350.9802631578947" y="216.0" />
+      <point x="43.5" y="72.5" />
+    </edge>
+    <edge source="ch.teko.prg2.pruefung.aufgabe8.Laden" target="ch.teko.prg2.pruefung.aufgabe8.Abteilung" relationship="DEPENDENCY">
+      <point x="-108.75" y="-83.5" />
+      <point x="212.1271929824561" y="371.0" />
+      <point x="142.75" y="371.0" />
+      <point x="-16.75" y="72.5" />
+    </edge>
+    <edge source="ch.teko.prg2.pruefung.aufgabe8.Abteilung" target="ch.teko.prg2.pruefung.aufgabe8.Artikel" relationship="DEPENDENCY">
+      <point x="79.75" y="-72.5" />
+      <point x="239.25" y="175.0" />
+      <point x="320.8771929824561" y="175.0" />
+      <point x="320.8771929824561" y="145.0" />
+      <point x="21.519736842105317" y="72.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="true" x="294.0" y="344.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
